@@ -1,3 +1,4 @@
 /vendor/gems
 .DS_Store
 .bundle/
+/pkg/
