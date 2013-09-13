@@ -10,19 +10,30 @@ Made with [MacGap][mg].
 
 - Runs the PT site in a Mac app
 
+## Quick Install
+
+Don't feel like building from source? You don't have to! Run this little
+command:
+
+```bash
+$ mkdir -p ~/Applications && \
+  curl 'http://f.psychedeli.ca/PivotalTracker.app.tar.gz' -o pt.tar.gz && \
+  tar -zxvf PivotalTracker.app.tar.gz ~/Applications
+```
+
 ## Setup
 
 Download this repo:
 
-    $ git clone https://github.com/tubbo/PivotalTracker.app.git
+    $ git clone https://github.com/tubbo/PivotalTracker.app.git PivotalTracker
 
 Install dependencies:
 
-    $ bundle install
+    $ cd PivotalTracker && bundle install
 
 Install the app to ~/Applications:
 
-    $ rake install
+    $ bundle exec rake install
 
 You can `mv` the app to `/Applications` to share it with other users on
 your machine, or just leave it where it is. OS X will pick up `.app`s in
