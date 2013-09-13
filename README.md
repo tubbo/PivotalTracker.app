@@ -4,6 +4,8 @@ I've been using this mac app on my own to browse Pivotal. It's
 especially useful if you're managing a project, because you can see
 everything at a glance.
 
+Made with [MacGap][mg].
+
 ## Features
 
 - Runs the PT site in a Mac app
@@ -32,5 +34,8 @@ Install the app to ~/Applications:
 Symlink the app to /Appplications:
     $ sudo ln -s '~/Applications/Pivotal Tracker.app' '/Applications/Pivotal Tracker.app'
 
-
 ## Contributing
+
+Please submit a Git or Github pull request.
+
+[mg]: http://github.com/maccman/macgap
