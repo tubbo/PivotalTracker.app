@@ -31,8 +31,9 @@ Install the app to ~/Applications:
 
     $ rake install
 
-Symlink the app to /Appplications:
-    $ sudo ln -s '~/Applications/Pivotal Tracker.app' '/Applications/Pivotal Tracker.app'
+You can `mv` the app to `/Applications` to share it with other users on
+your machine, or just leave it where it is. OS X will pick up `.app`s in
+**~/Applications** by default.
 
 ## Contributing
 
