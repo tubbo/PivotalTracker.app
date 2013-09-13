@@ -9,13 +9,6 @@ Made with [MacGap][mg].
 ## Features
 
 - Runs the PT site in a Mac app
-- Full-screen mode
-
-### Roadmap
-
-- Hotkeys for adding a story and tab-switching for projects.
-- Minimal menu system
-- Notifications for new story assignments
 
 ## Setup
 
@@ -38,5 +31,12 @@ your machine, or just leave it where it is. OS X will pick up `.app`s in
 ## Contributing
 
 Please submit a Git or Github pull request.
+
+### Roadmap
+
+- Hotkeys for adding a story and tab-switching for projects.
+- Minimal menu system
+- Notifications for new story assignments
+
 
 [mg]: http://github.com/maccman/macgap
